@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="finish.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1 class="title">OOO &laquo;IDEAL PLAST MANUFACTORY&raquo;</h1>
+      <b>Заказ поставщика</b>
+    </div>
+    <div class="wrap">
+      <b>Плательщик Шахзод</b>
+      <div class="inner-wrap">
+        <p>
+          <b>
+            &#8470; заказа
+          </b>
+          <span class="order"></span>
+        </p>
+        <p>
+          <b>
+            Дата заказа
+          </b>
+          <span class="order"></span>
+        </p>
+        <p>
+          <b>
+            Срок
+          </b>
+          <span class="order"></span>
+        </p>
+      </div>
+    </div>
+    <div class="wrap">
+      <table class="table">
+        <tbody id="table">
+          <tr class="header">
+            <th>&#8470;</th>
+            <th>Товары/Услуги</th>
+            <th>Описание</th>
+            <th>Количество</th>
+            <th>Цена за штуку</th>
+            <th>Налог</th>
+            <th>Скидка</th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="wrap">
+      <div class="finish">
+        <p>
+          <b>
+            Промежуточный итог:
+          </b>
+          <span id="sum"></span>
+        </p>
+        <p>
+          <b>
+            Скидка:
+          </b>
+          <span id="discount"></span>
+        </p>
+        <p>
+          <b>
+            Сумма (UZS):
+          </b>
+          <b id="finishSum"></b>
+        </p>
+      </div>
+    </div>
+    <div class="qr">
+      <div class="canvas">
+        <canvas id="canvas"></canvas>
+      </div>
+      <div>
+          <p><b>Sklad Qushbegi, Tashkent, Uzbekistan</b></p>
+          <p>
+            Phone: +(998)99 8784477,
+            <a href="tomail:idealplastuz@mail.ru">idealplastuz@mail.ru</a>,
+            <a href="ideal-plast.uz">ideal-plast.uz</a>
+          </p>
+        </canvas>
+      </div>
+    </div>
+    <a class ="print-doc" href="javascript:(print());"> Распечатать</a>
+    <script src="data.js"></script>
+    <script src="qrcode.min.js"></script>
+    <script src="finish.js"></script>
+  </body>
+</html>

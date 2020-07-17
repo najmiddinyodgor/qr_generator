@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <p class="info">
+        <label class="label">
+          &#8470; заказа
+          <input class="order" type="text" name="order" />
+        </label>
+        <label class="label">
+          Дата заказа
+          <input class="order" type="text" name="order-date" />
+        </label>
+        <label class="label">
+          Срок
+          <input class="order" type="text" name="order-end" />
+        </label>
+        <label class="label">
+          Текст для QRcode
+          <textarea class="order" type="text">
+            Sklad Qushbegi, Tashkent, Uzbekistan
+            Phone: +(998)99 8784477, idealplastuz@mail.ru, ideal-plast.uz
+          </textarea>
+        </label>
+      </p>
+
+      <p сlass="wrap">
+        <label class="label">
+          ID товара
+          <input class="goods" type="number" name="id" />
+        </label>
+        <label class="label">
+          Количество товара
+          <input class="sum" type="number" name="number" />
+        </label>
+      </p>
+    </div>
+    <button class="button" type="button">Добавить ещё товар</button>
+    <button class="submit" type="button">Закончить</button>
+    <a href="finish.html" style="display: none;" class="link"
+      >Перейти к итогу</a
+    >
+    <script src="script.js"></script>
+  </body>
+</html>
